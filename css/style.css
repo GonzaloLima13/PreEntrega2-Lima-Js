@@ -12,24 +12,12 @@ body{
     min-height: 100vh;
 }
 
-.img-index{
-    display: block;
-    margin: 1em auto;
-    width: 100%;
-    max-width: 450px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.arrowsdiv{
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-.arrows{
-    width: 3%;
-    margin: 0px auto;
+.carousel{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 /* Estilo nav */
@@ -47,7 +35,7 @@ nav{
 
 .nav-logotext{
     font-size: 40px;
-    padding-right: 100px;
+    padding-right: 100px; 
     font-family: 'Ms Madi', sans-serif;
 }
 
@@ -68,7 +56,7 @@ nav ul{
 
 nav ul li{
     display: inline;
-    padding: 9px;
+    padding: 8px;
 }
 
 nav ul li:hover{
@@ -84,6 +72,11 @@ nav ul li:hover{
     max-height: 3rem;
     padding-right: 25px;
 }
+
+nav div:nth-child(1){
+    width: 50%;
+}
+
 
 /* Estilo header */
 
