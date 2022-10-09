@@ -10,15 +10,27 @@ body{
     background-color: #693f8d;
     padding-bottom: 7em;
     min-height: 100vh;
+    min-width: 480px;
+    display: flex;
+    flex-direction: column;
 }
 
+.hero{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
 .carousel{
-    width: 60%;
-    height: 60%;
+    padding: 0 20%;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
+
 
 /* Estilo nav */
 
@@ -30,6 +42,7 @@ nav{
     align-items: center;
     background-color: white;
     border-bottom: 1px solid black;
+    height: 100px;
 }
 
 
@@ -159,7 +172,12 @@ main div{
     text-align: center;
 }
 
-
+@media only screen and (min-width: 600px) {
+    .text-service{
+        align-self: center;
+        justify-content: center;
+    }
+}
 
 /* Estilo footer */
 
