@@ -10,7 +10,7 @@ body{
     background-color: #693f8d;
     padding-bottom: 7em;
     min-height: 100vh;
-    min-width: 480px;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -203,11 +203,17 @@ footer a{
         padding-bottom: 5px;
         text-align: center;
     }
-    .inicio-sesion{
-        display: block;
-    }
-    
     .launch{
         text-align: center;
+    }
+
+    .text-service{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    body{
+        width: 100%;
     }
 }
