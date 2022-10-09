@@ -43,6 +43,7 @@ nav{
     background-color: white;
     border-bottom: 1px solid black;
     height: 100px;
+    font-style: italic;
 }
 
 
@@ -90,7 +91,6 @@ nav div:nth-child(1){
     width: 50%;
 }
 
-
 /* Estilo header */
 
 
@@ -111,8 +111,8 @@ header div h1{
 /* Section sobre nosotros */
 #sobre-nosotros{
     border: 3px solid black;
-    padding: 5px;
-    width: 50%;
+    padding: 10px;
+    width: 70%;
     margin: auto;
     font-size: 1.5rem;
 }
@@ -128,25 +128,18 @@ header div h1{
 
 /* Galeria catalogo */
 
-.galeria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
-}
-
-.galeria img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 25px;
+    }
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
 
 /* Main servicios */
 
@@ -172,12 +165,7 @@ main div{
     text-align: center;
 }
 
-@media only screen and (min-width: 600px) {
-    .text-service{
-        align-self: center;
-        justify-content: center;
-    }
-}
+
 
 /* Estilo footer */
 
@@ -204,4 +192,22 @@ ul li{
 footer a{
     color: black;
     font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body nav{
+        display: flex;
+        flex-direction: column;
+        height: 5%;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .inicio-sesion{
+        display: block;
+    }
+    
+    .launch{
+        text-align: center;
+    }
 }
