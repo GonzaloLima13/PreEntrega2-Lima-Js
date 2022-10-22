@@ -7,9 +7,9 @@ body{
     position: relative;
     font-family: 'Poppins', sans-serif;
     background-color: #8c40ca;
-    padding-bottom: 7em;
-    min-height: 100vh;
-    min-width: 550px;
+    padding-bottom: (14em / 2);
+    min-height: 70vh + 30;
+    min-width: 600px - 50;
     @include flex-column;
 
     .hero{
@@ -18,7 +18,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 25% * 4;
      }
     
     .carousel{
