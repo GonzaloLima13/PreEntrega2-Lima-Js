@@ -31,7 +31,7 @@ body {
     opacity: 0.1; }
   to {
     opacity: 1; } }
-  body .launch {
+  body .launch, body .catalogo-h1, body .contact-h1, body .service-h1, body .about-h1 {
     animation-name: carousel;
     animation-duration: 1s; }
 
@@ -72,7 +72,7 @@ nav {
   nav div:nth-child(1) {
     width: 50%; }
 
-header div h1 {
+.launch, .catalogo-h1, .contact-h1, .service-h1, .about-h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@ footer {
     padding-left: 3rem; } }
 
 @media only screen and (max-width: 768px) {
-  .launch {
+  .launch, .catalogo-h1, .contact-h1, .service-h1, .about-h1 {
     text-align: center; }
   .text-service {
     text-align: center;

@@ -1,9 +1,25 @@
-header div h1{
+.launch{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
     margin-bottom: 0;
+}
+
+.catalogo-h1{
+    @extend .launch;
+}
+
+.contact-h1{
+    @extend .launch;
+}
+
+.service-h1{
+    @extend .launch;
+}
+
+.about-h1{
+    @extend .launch;
 }
 
 .h1-services{
