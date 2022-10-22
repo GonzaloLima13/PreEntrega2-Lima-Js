@@ -8,49 +8,50 @@ nav{
     border-bottom: 1px solid black;
     height: 100px;
     font-style: italic;
+
+    .nav-logotext{
+        font-size: 40px;
+        padding-right: 100px; 
+        font-family: 'Ms Madi', sans-serif;
+    }
+    
+    .nav-logotext{
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    ul li{
+        display: inline;
+        padding: 8px;
+    }
+    
+    ul li:hover{
+        background-color: lavender;
+        transition: border 1.2s;
+    }
+    
+    .logonav{
+        width: 7%;
+    }
+    
+    .inicio-sesion{
+        max-height: 3rem;
+        padding-right: 25px;
+    }
+    
+    div:nth-child(1){
+        width: 50%;
+    }
 }
 
 
-.nav-logotext{
-    font-size: 40px;
-    padding-right: 100px; 
-    font-family: 'Ms Madi', sans-serif;
-}
-
-.nav-logotext{
-    text-decoration: none;
-    color: black;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav ul li{
-    display: inline;
-    padding: 8px;
-}
-
-nav ul li:hover{
-    background-color: lavender;
-    transition: border 1.2s;
-}
-
-.logonav{
-    width: 7%;
-}
-
-.inicio-sesion{
-    max-height: 3rem;
-    padding-right: 25px;
-}
-
-nav div:nth-child(1){
-    width: 50%;
-}

@@ -9,16 +9,16 @@ footer{
     width: 100%;
     border-top: 1px solid black;
     padding-left: 20px;
-}
 
-ul li{
-    list-style-type: none;
-    text-align: right;
-    padding: 0px 20px 0px 20px;
-    text-decoration: underline;
-} 
+    ul li{
+        list-style-type: none;
+        text-align: right;
+        padding: 0px 20px 0px 20px;
+        text-decoration: underline;
+    } 
 
-footer a{
-    color: black;
-    font-weight: bold;
+    a{
+        color: black;
+        font-weight: bold;
+    }
 }
