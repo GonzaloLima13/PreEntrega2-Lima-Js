@@ -10,8 +10,7 @@ body{
     padding-bottom: 7em;
     min-height: 100vh;
     min-width: 550px;
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
 
     .hero{
         display: flex;

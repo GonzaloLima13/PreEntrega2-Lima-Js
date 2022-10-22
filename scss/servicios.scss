@@ -1,6 +1,5 @@
 .service-main{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
