@@ -17,4 +17,21 @@ main div{
     object-fit: cover;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #572364;
+    background-position: center;
 }
+
+.servicio1{
+    background-image: url(../img/reelpintado.jpg);
+    background-size: cover;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+

@@ -64,8 +64,6 @@ nav {
   nav ul li:hover {
     background-color: lavender;
     transition: border 1.2s; }
-  nav .logonav {
-    width: 7%; }
   nav .inicio-sesion {
     max-height: 3rem;
     padding-right: 25px; }
@@ -146,7 +144,22 @@ main div {
   height: 240px;
   object-fit: cover;
   border-radius: 10px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #572364;
+  background-position: center; }
+
+.servicio1 {
+  background-image: url(../img/reelpintado.jpg);
+  background-size: cover;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
 
 footer {
   display: flex;
@@ -162,11 +175,13 @@ footer {
   footer ul li {
     list-style-type: none;
     text-align: right;
-    padding: 0px 20px 0px 20px;
-    text-decoration: underline; }
+    padding: 0px 20px 0px 20px; }
   footer a {
     color: black;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: none; }
+  footer img {
+    width: 20px; }
 
 @media only screen and (max-width: 1210px) {
   nav {
